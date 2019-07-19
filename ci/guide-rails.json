@@ -101,7 +101,7 @@
 						"dependencies": [],
 						"downloads": [],
 						"files": [
-							"((application.name))*jar"
+							"simple-maven-dep*jar"
 						],
 						"package_install_command": "",
 						"installed_path": ""

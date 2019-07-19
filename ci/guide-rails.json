@@ -48,6 +48,12 @@
 						"properties": null
 					},
 					{
+						"name": "print-dir",
+						"definition": "print-dir",
+						"command": "echo \"directory list\"\nls -lrt",
+						"properties": null
+					},
+					{
 						"name": "copy-jar",
 						"definition": "Copy final JAR to expected location",
 						"command": "cp -f target/((application.name))-*-SNAPSHOT.jar .",
@@ -157,8 +163,13 @@
 		},
 		"default_properties": [
 			{
+				"name": "java_binaries",
+				"value": "**/classes",
+				"type": "string"
+			},
+			{
 				"name": "source_dirs",
-				"value": "",
+				"value": "src/main/java",
 				"type": "string"
 			}
 		],

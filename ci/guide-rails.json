@@ -50,7 +50,7 @@
 					{
 						"name": "copy-jar",
 						"definition": "Copy final JAR to expected location",
-						"command": "ls -lrt\ncp -f target/((application.name))-*-SNAPSHOT.jar .",
+						"command": "cp -f target/simple-maven-dep*.jar .",
 						"properties": null
 					}
 				],

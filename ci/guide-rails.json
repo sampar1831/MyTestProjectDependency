@@ -101,7 +101,7 @@
 						"dependencies": [],
 						"downloads": [],
 						"files": [
-							"((application.name))*"
+							"((application.name))*jar"
 						],
 						"package_install_command": "",
 						"installed_path": ""
